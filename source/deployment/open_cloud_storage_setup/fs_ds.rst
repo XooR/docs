@@ -180,7 +180,7 @@ Also note that there are additional attributes that can be set, check the :ref:`
 
 .. _qcow2_options:
 
-Addtional Configuration
+Additional Configuration
 --------------------------------------------------------------------------------
 
 The qcow2 drivers are a specialization of the shared drivers to work with the qcow2 format for disk images. Images are created and through the ``qemu-img`` command using the original image as backing file. Custom options can be sent to ``qemu-img`` clone action through the variable ``QCOW2_OPTIONS`` in ``/var/lib/one/remotes/tm/tmrc``.
